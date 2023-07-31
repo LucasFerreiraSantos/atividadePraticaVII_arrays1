@@ -1,4 +1,7 @@
-
+const nomes = ['Renan', 'Jessica', 'Sandra', 'Vicente']
+  for(let i = 0; i < nomes.length; i++){
+    document.write(`${nomes[i]} `)
+  }
 
 // 1. Criar um array e percorrê-lo utilizando o loop for
 // a. Crie um array com o nome "nomes" e adicione 4 nomes de
