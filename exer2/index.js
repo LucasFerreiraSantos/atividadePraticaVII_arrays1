@@ -1,4 +1,10 @@
-
+const numArray = [1, 2, 3, 4, 5]
+let soma = 0
+  for(num of numArray){
+    document.write(num)
+    soma += num
+  }
+document.write(`<br>A soma do Array é ${soma}.` )
 
 // 2. Criar um array e percorrê-lo utilizando o loop for of
 // a. Crie um array com o nome "numeros" e adicione 5 números de
